@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body class="align">
+    <div class="grid">
+      <form action="#" method="#" class="form login">
+        <div class="form__field">
+          <label for="login__username">
+            <img src="assets/Login/icons8-user-30.png" alt="login" class="icon">
+            <!-- <svg class="icon">
+              <use xmlns:xlink="https://icons8.com/icon/98957/user" xlink:href="#user"></use>
+            </svg> -->
+            <span class="hidden">Username</span>
+          </label>
+          <input id="login__username" type="text" name="username" class="form__input" placeholder="Username" required>
+        </div>
+        <div class="form__field">
+          <label for="login__password">
+            <img src="assets/Login/icons8-password-48.png" alt="" class="icon">
+            <span class="hidden">Password</span>
+          </label>
+          <input id="login__password" type="password" name="password" class="form__input" placeholder="Password" required>
+        </div>
+        <div class="form__field">
+          <input type="submit" value="Sign In">
+        </div>
+      </form>
+      <p class="text--center">
+        Not a member?
+        <a href="signup.html">Sign up now</a>
+        <svg class="icon">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/images/icons.svg#arrow-right"></use>
+        </svg>
+      </p>
+  </div>
+  </body>
+</html>

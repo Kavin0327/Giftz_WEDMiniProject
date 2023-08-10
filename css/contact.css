@@ -1,0 +1,86 @@
+p{
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+#contact-details{
+  display: flex;
+  justify-content: center;
+}
+#contact-details .customer-service{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-details .customer-service p{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(2, 2, 2, 0.678);
+}
+
+.customer-service .return{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bold{
+  margin-top: 0;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.815);
+}
+
+.customer-service .return .smily-image{
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.contact-us{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.contact-us img{
+  width: 30px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.contact-us span{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(2, 2, 2, 0.678);
+}
+
+.email-bar{
+  margin-top: 50px;
+  width: 100%;
+}
+
+.email-bar #email-input{
+  padding: 2px 5px;
+  width: 300px;
+  border: 1px;
+  box-shadow: 0px 4px 6px grey;
+}
+.email-bar #email-input::placeholder {
+  font-size: 15px;
+}
+
+.sign-up-button{
+  background-color: rgba(2, 1, 1, 0.918);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 4px 4px;
+}
+.sign-up-button:hover{
+  background-color: white;
+  border: 1px black solid;
+  color:  rgba(2, 1, 1, 0.918);
+  font-weight: bold;
+}

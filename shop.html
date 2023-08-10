@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gift-Shop</title>
+    <link rel="icon" type="image/x-icon" href="assets/gift.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"/>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/index.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/shop.css">
+  <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light p-4" id="header"
+      style="background-color: #e3e6f3"
+    >
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="index.html"><img src="assets/thumbnails/GIFTZ.png" alt="Giftz"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex justify-content-end" id="navbar">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"   href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-dark" id="cart-button" type="submit">
+                <a href="cart.html">
+                  <i class="bi-cart-fill me-1" id="cart-text"></i>
+                  Cart
+                  <span class="badge bg-dark text-white ms-1 rounded-pill"
+                    >0</span
+                  >
+                </a>
+              </button>
+            </form>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login / Sign Up</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- slider section start -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/Shop1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/Shop2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/Shop3.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only text-primary">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only text-primary">Next</span>
+        </a>
+    </div>
+    <!-- slider section ends -->
+
+    <!-- shopping section starts -->
+    <div class="product-container">
+      <div class="product">  
+        <img src="assets\thumbnails\cup.jpg" alt="your Photo and text" class="product-img">
+        <h5>Product1</h5>
+        <div class="describe">
+          <h4>&#8377;500 /- </h4>
+          <a href="#"><img src="assets\logo\cart_shopping_icon.png"  width="25px"  class="cart-logo"></a>
+        </div>
+      </div>
+
+      <div class="product">  
+        <img src="assets\thumbnails\product-8.jpg" alt="your Photo and text" class="product-img">
+        <h5>Product2</h5>
+        <div class="describe">
+          <h4>&#8377;500 /- </h4>
+          <a href="#"><img src="assets\logo\cart_shopping_icon.png"  width="25px"  class="cart-logo"></a>
+        </div>
+      </div>
+
+      <div class="product">  
+        <img src="assets\thumbnails\frame-4.jpeg" alt="your Photo and text" class="product-img">
+        <h5>Product3</h5>
+          <div class="describe">
+            <h4>&#8377;500 /- </h4>
+            <a href="#"><img src="assets\logo\cart_shopping_icon.png"  width="25px"  class="cart-logo"></a>
+          </div>
+        </div>
+
+        <div class="product">  
+          <img src="assets\thumbnails\cup.jpg" alt="your Photo and text" class="product-img">
+          <h5>Product4</h5>
+            <div class="describe">
+              <h4>&#8377;500 /- </h4>
+              <a href="#"><img src="assets\logo\cart_shopping_icon.png"  width="25px"  class="cart-logo"></a>
+            </div>
+          </div>
+
+          <div class="product">  
+            <img src="assets\thumbnails\frame-3.jpeg" alt="your Photo and text" class="product-img">
+            <h5>Product5</h5>
+            <div class="describe">
+              <h4>&#8377;500 /- </h4>
+              <a href="#"><img src="assets\logo\cart_shopping_icon.png"  width="25px"  class="cart-logo"></a>
+            </div>
+          </div>
+    
+          <div class="product">  
+            <img src="assets\thumbnails\happy-birthday-cup-with-name-edit_71a2.jpg" alt="your Photo and text" class="product-img">
+            <h5>Product6</h5>
+            <div class="describe">
+              <h4>&#8377;500 /- </h4>
+              <a href="#"><img src="assets\logo\cart_shopping_icon.png"  width="25px"  class="cart-logo"></a>
+            </div>
+          </div>
+    
+          <div class="product">  
+            <img src="assets\thumbnails\profduct-7.jpg" alt="your Photo and text" class="product-img">
+            <h5>Product7</h5>
+              <div class="describe">
+                <h4>&#8377;500 /- </h4>
+                <a href="#"><img src="assets\logo\cart_shopping_icon.png"  width="25px"  class="cart-logo"></a>
+              </div>
+            </div>
+    
+            <div class="product">  
+              <img src="assets\thumbnails\frames.jpg" alt="your Photo and text" class="product-img">
+              <h5>Product8</h5>
+                <div class="describe">
+                  <h4>&#8377;500 /- </h4>
+                  <a href="#"><img src="assets\logo\cart_shopping_icon.png"  width="25px"  class="cart-logo"></a>
+                </div>
+              </div>
+    </div>
+    <!-- shopping section ends -->
+
+
+    <!-- footer section -->
+    <section class="footer">
+      <footer class="footer-container py-4 bg-dark footer">
+        <div class="container">
+          <p class="m-0 text-left text-white">
+            Copyright &copy; Giftz 2023. All rights reserved
+          </p>
+        </div>
+        <div class="follow">
+          <a href="#">
+            <img
+              src="assets\logo\instagram_social media_icon.png"
+              alt="instagram"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="assets\logo\facebook_logo_media_social_icon.png"
+              alt="facebook"
+            />
+          </a>
+          <a href="#">
+            <img src="assets\logo\gmail_mail_icon.png" alt="gmail" />
+          </a>
+        </div>
+      </footer>
+    </section>
+
+    <!-- boot strap script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
